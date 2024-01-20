@@ -6,6 +6,51 @@
     <title>Basic Calculator</title>
 </head>
 <body>
-    <h2>Hello world</h2>
+    <!-- calculator starts here -->
+    <div class="container">
+        <header>
+            <h1>Basic Calculator App</h1>
+        </header>
+        <div class="content">
+            <div class="instruction-side">
+                <h2>How to Use Guide</h2>
+                <ul>
+                    <li>First add both input upon whom you want to do arithmetical operations.</li>
+                    <li>Second select the type of operation you want to do.</li>
+                    <li>Press calculate Button will show the result.</li>
+                    <li>To clear all input press clear button.</li>
+                </ul>
+            </div>
+            <div class="bar-vertical"></div>
+            <div class="calulator-content">
+                 <div class="input-content">
+                    <div class="input-group">
+                        <div>
+                            <label for="firstInput">1<sup>st</sup> Number</label>
+                            <input type="number" id="firstInput">
+                        </div>
+                        <div>
+                            <label for="secondInput">2<sup>nd</sup> Number</label>
+                            <input type="number" id="secondInput">
+                        </div>
+                    </div>
+                    <div class="ops-select">
+                        <select id="selectOperator">
+                            <option value="">select operator</option>
+                            <option value="+">Add</option>
+                            <option value="-">Subtract</option>
+                            <option value="*">Multipication</option>
+                            <option value="/">Division</option>
+                            <option value="%">Modulus</option>
+                        </select>
+                    </div>
+                 </div>
+                 <div class="button-group">
+                    <button type="submit">Calculate</button>
+                    <button type="reset">Clear</button>
+                 </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
