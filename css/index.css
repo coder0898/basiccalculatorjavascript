@@ -1,4 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* Global
+--------------------------*/
+
 *{
    margin: 0;
    padding: 0;
@@ -13,6 +17,9 @@ body{
     background-color: #0766DF;
 }
 
+/* Container Styling
+-------------------------------------- */
+
 .container{
     display: flex;
     flex-direction: column;
@@ -22,6 +29,9 @@ body{
     background-color: #fff;
     border-radius: 1rem;
 }
+
+/* Heading of Container Styling
+-------------------------------------- */
 
 header{
     padding: 5px;
@@ -40,13 +50,18 @@ header h1{
     font-style: normal;
 }
 
-.content{
+/* Container Content Styling 
+ --------------------------------------------*/
+ .content{
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-.content .instruction-side{
+/* Instruction Styling 
+ --------------------------------------------*/
+
+.instruction-side{
     padding: 10px;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
@@ -55,21 +70,24 @@ header h1{
     width: 300px;
 }
 
-.content .instruction-side h2{
+.instruction-side h2{
     color: #0766DF;
     margin-bottom: 8px;
 }
 
-.content .instruction-side ul{
+.instruction-side ul{
     list-style: none;
 }
 
-.content .instruction-side ul li{
+.instruction-side ul li{
     margin-bottom: 5px;
     text-align: justify;
 }
 
-.content .calulator-content{
+/* Calculator Styling 
+ --------------------------------------------*/
+
+.calulator-content{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,34 +96,31 @@ header h1{
     width: 400px;
 }
 
-.content .calulator-content .input-group{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+/* Input Styling
+-------------------------------------------- */
 
-.content .calulator-content .input-group{
+.input-group{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.content .calulator-content .input-group div{
+.input-group div{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
 }
 
-.content .calulator-content .input-group label{
+label{
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     font-style: normal;
     margin-right: 5px;
 }
 
-.content .calulator-content .input-group input{
+input{
     border: none;
     outline: none;
     border-bottom: 3px solid #0766DF;
@@ -113,7 +128,7 @@ header h1{
     padding: 5px;
 }
 
-.content .calulator-content .input-group select{
+select{
     border: none;
     outline: none;
     border-bottom: 3px solid #0766DF;
@@ -121,7 +136,10 @@ header h1{
     padding: 5px;
 }
 
-.content .calulator-content .result-box{
+/* Result and Button Styling
+-------------------------------------------- */
+
+.result-box{
     border: 2px solid #0766DF;
     border-radius: 1rem;
     font-family: "Roboto", sans-serif;
@@ -135,11 +153,11 @@ header h1{
     margin-bottom: 10px;
 }
 
-.content .calulator-content .result-box p{
+.result-box p{
     color: red;
 }
 
-.content .calulator-content .button-group{
+.button-group{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -147,7 +165,7 @@ header h1{
     width: 100%;
 }
 
-.content .calulator-content .button-group button{
+ .button-group button{
     width: 150px;
     height: 42px;
     padding: 10px;
