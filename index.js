@@ -60,4 +60,12 @@ const calculateInput = () => {
 }
 
 
+const resetAllInput = ()=>{
+    firstInput.value = '';
+    secondInput.value = '';
+    selectOperator.value = '';
+    showResult.innerText = '';
+}
+
 calculateResult.addEventListener('click', calculateInput);
+resetCalculator.addEventListener('click', resetAllInput);
