@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    background-color: #0766DF;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+
+header{
+    padding: 5px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+header h1{
+    background-color: #0766DF;
+    color: #fff;
+    padding: 5px;
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.content .instruction-side{
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1rem;
+    width: 300px;
+}
+
+.content .instruction-side h2{
+    color: #0766DF;
+    margin-bottom: 8px;
+}
+
+.content .instruction-side ul{
+    list-style: none;
+}
+
+.content .instruction-side ul li{
+    margin-bottom: 5px;
+    text-align: justify;
+}
+
+.content .calulator-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    width: 400px;
+}
+
+.content .calulator-content .input-group{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .calulator-content .input-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.content .calulator-content .input-group div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.content .calulator-content .input-group label{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-right: 5px;
+}
+
+.content .calulator-content .input-group input{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #0766DF;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.content .calulator-content .input-group select{
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #0766DF;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+
+.content .calulator-content .result-box{
+    border: 2px solid #0766DF;
+    border-radius: 1rem;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.2rem;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.content .calulator-content .result-box p{
+    color: red;
+}
+
+.content .calulator-content .button-group{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.content .calulator-content .button-group button{
+    width: 150px;
+    height: 42px;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    background-color: #0766DF;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+}
